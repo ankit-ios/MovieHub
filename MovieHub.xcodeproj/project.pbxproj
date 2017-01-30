@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C913DA4C1E3B528D006F8B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913DA4B1E3B528D006F8B42 /* AppDelegate.swift */; };
-		C913DA511E3B528D006F8B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C913DA4F1E3B528D006F8B42 /* Main.storyboard */; };
 		C913DA531E3B528D006F8B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C913DA521E3B528D006F8B42 /* Assets.xcassets */; };
 		C913DA561E3B528D006F8B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C913DA541E3B528D006F8B42 /* LaunchScreen.storyboard */; };
 		C913DA611E3B528D006F8B42 /* MovieHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913DA601E3B528D006F8B42 /* MovieHubTests.swift */; };
+		C9218E8A1E3F46A900747738 /* MHSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E891E3F46A900747738 /* MHSlideMenuController.swift */; };
+		C9218E8C1E3F604D00747738 /* MHDrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */; };
+		C954FA081E3E36D0002DF53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C954FA071E3E36D0002DF53A /* Main.storyboard */; };
+		C954FA161E3E374C002DF53A /* MHMovieDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */; };
+		C954FA1C1E3E3752002DF53A /* MHDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */; };
+		C954FA1D1E3E3752002DF53A /* MHPopularMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */; };
+		C954FA1E1E3E3752002DF53A /* MHTabBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA191E3E3752002DF53A /* MHTabBarTableViewController.swift */; };
+		C954FA1F1E3E3752002DF53A /* MHTopRatedMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */; };
+		C954FA201E3E3752002DF53A /* MHUpcomingMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */; };
+		C96E46361E3E3915003C1C0F /* MHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E46351E3E3915003C1C0F /* MHError.swift */; };
+		C96E46391E3E39B7003C1C0F /* Extensions+MHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */; };
+		C96E463B1E3E404C003C1C0F /* MHMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E463A1E3E404C003C1C0F /* MHMovie.swift */; };
+		C9BD0DCE1E3E37B3007581FA /* MHWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */; };
+		C9F6C02A1E3EDC9B002F03EA /* MHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0291E3EDC9B002F03EA /* MHTableViewCell.swift */; };
+		C9F6C0321E3EF4CF002F03EA /* MHMovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0311E3EF4CF002F03EA /* MHMovieDetail.swift */; };
+		CC6736C9F63B08F2D539866B /* Pods_MovieHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C42DB35C6DC60D8C5C1D5 /* Pods_MovieHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +40,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732C42DB35C6DC60D8C5C1D5 /* Pods_MovieHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		885A88C667FFFBB7FAD5F4EB /* Pods-MovieHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieHub/Pods-MovieHub.debug.xcconfig"; sourceTree = "<group>"; };
+		99A9247ED0F97296F695065A /* Pods-MovieHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieHub/Pods-MovieHub.release.xcconfig"; sourceTree = "<group>"; };
 		C913DA481E3B528D006F8B42 /* MovieHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C913DA4B1E3B528D006F8B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C913DA501E3B528D006F8B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C913DA521E3B528D006F8B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C913DA551E3B528D006F8B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C913DA571E3B528D006F8B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C913DA5C1E3B528D006F8B42 /* MovieHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C913DA601E3B528D006F8B42 /* MovieHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHubTests.swift; sourceTree = "<group>"; };
 		C913DA621E3B528D006F8B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9218E891E3F46A900747738 /* MHSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHSlideMenuController.swift; sourceTree = "<group>"; };
+		C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerTableViewCell.swift; path = Source/Views/MHDrawerTableViewCell.swift; sourceTree = "<group>"; };
+		C954FA071E3E36D0002DF53A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDBAPI.swift; path = Source/API/MHMovieDBAPI.swift; sourceTree = "<group>"; };
+		C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerViewController.swift; path = Source/Controllers/MHDrawerViewController.swift; sourceTree = "<group>"; };
+		C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHPopularMovieViewController.swift; path = Source/Controllers/MHPopularMovieViewController.swift; sourceTree = "<group>"; };
+		C954FA191E3E3752002DF53A /* MHTabBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabBarTableViewController.swift; path = Source/Controllers/MHTabBarTableViewController.swift; sourceTree = "<group>"; };
+		C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTopRatedMovieViewController.swift; path = Source/Controllers/MHTopRatedMovieViewController.swift; sourceTree = "<group>"; };
+		C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHUpcomingMovieViewController.swift; path = Source/Controllers/MHUpcomingMovieViewController.swift; sourceTree = "<group>"; };
+		C96E46351E3E3915003C1C0F /* MHError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHError.swift; sourceTree = "<group>"; };
+		C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+MHUtility.swift"; path = "Source/Extension/Extensions+MHUtility.swift"; sourceTree = "<group>"; };
+		C96E463A1E3E404C003C1C0F /* MHMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovie.swift; path = Source/Models/MHMovie.swift; sourceTree = "<group>"; };
+		C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHWebServiceManager.swift; path = Source/Helpers/MHWebServiceManager.swift; sourceTree = "<group>"; };
+		C9F6C0291E3EDC9B002F03EA /* MHTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTableViewCell.swift; path = Source/Views/MHTableViewCell.swift; sourceTree = "<group>"; };
+		C9F6C0311E3EF4CF002F03EA /* MHMovieDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetail.swift; path = Source/Models/MHMovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6736C9F63B08F2D539866B /* Pods_MovieHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +87,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59A1E7EFD9AA1456A6015A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				885A88C667FFFBB7FAD5F4EB /* Pods-MovieHub.debug.xcconfig */,
+				99A9247ED0F97296F695065A /* Pods-MovieHub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62C0A4A99115C13AF592F773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732C42DB35C6DC60D8C5C1D5 /* Pods_MovieHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C913DA3F1E3B528D006F8B42 = {
 			isa = PBXGroup;
 			children = (
 				C913DA4A1E3B528D006F8B42 /* MovieHub */,
 				C913DA5F1E3B528D006F8B42 /* MovieHubTests */,
 				C913DA491E3B528D006F8B42 /* Products */,
+				59A1E7EFD9AA1456A6015A15 /* Pods */,
+				62C0A4A99115C13AF592F773 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +165,8 @@
 		C913DA751E3B57A8006F8B42 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C980EF5C1E3C69E800DB542E /* API */,
+				C96E46371E3E3986003C1C0F /* Extension */,
 				C913DA7A1E3B57D6006F8B42 /* Models */,
 				C913DA791E3B57D4006F8B42 /* Views */,
 				C913DA781E3B57D2006F8B42 /* Controllers */,
@@ -124,7 +178,7 @@
 		C913DA761E3B57AC006F8B42 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C913DA4F1E3B528D006F8B42 /* Main.storyboard */,
+				C954FA071E3E36D0002DF53A /* Main.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -132,6 +186,9 @@
 		C913DA771E3B57CB006F8B42 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C9218E891E3F46A900747738 /* MHSlideMenuController.swift */,
+				C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */,
+				C96E46351E3E3915003C1C0F /* MHError.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -139,6 +196,11 @@
 		C913DA781E3B57D2006F8B42 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C954FA191E3E3752002DF53A /* MHTabBarTableViewController.swift */,
+				C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */,
+				C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */,
+				C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */,
+				C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -146,6 +208,8 @@
 		C913DA791E3B57D4006F8B42 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */,
+				C9F6C0291E3EDC9B002F03EA /* MHTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -153,8 +217,26 @@
 		C913DA7A1E3B57D6006F8B42 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C96E463A1E3E404C003C1C0F /* MHMovie.swift */,
+				C9F6C0311E3EF4CF002F03EA /* MHMovieDetail.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C96E46371E3E3986003C1C0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		C980EF5C1E3C69E800DB542E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C913DA651E3B528D006F8B42 /* Build configuration list for PBXNativeTarget "MovieHub" */;
 			buildPhases = (
+				0DC637B3AA047F858468A42C /* [CP] Check Pods Manifest.lock */,
 				C913DA441E3B528D006F8B42 /* Sources */,
 				C913DA451E3B528D006F8B42 /* Frameworks */,
 				C913DA461E3B528D006F8B42 /* Resources */,
+				CAB2C27A8D9A293882DF2338 /* [CP] Embed Pods Frameworks */,
+				26DD40EDEADEBE0BDDC27236 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +323,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C954FA081E3E36D0002DF53A /* Main.storyboard in Resources */,
 				C913DA561E3B528D006F8B42 /* LaunchScreen.storyboard in Resources */,
 				C913DA531E3B528D006F8B42 /* Assets.xcassets in Resources */,
-				C913DA511E3B528D006F8B42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +338,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DC637B3AA047F858468A42C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26DD40EDEADEBE0BDDC27236 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovieHub/Pods-MovieHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB2C27A8D9A293882DF2338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovieHub/Pods-MovieHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C913DA441E3B528D006F8B42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C954FA1E1E3E3752002DF53A /* MHTabBarTableViewController.swift in Sources */,
+				C9218E8A1E3F46A900747738 /* MHSlideMenuController.swift in Sources */,
+				C954FA1D1E3E3752002DF53A /* MHPopularMovieViewController.swift in Sources */,
+				C9BD0DCE1E3E37B3007581FA /* MHWebServiceManager.swift in Sources */,
+				C9F6C0321E3EF4CF002F03EA /* MHMovieDetail.swift in Sources */,
 				C913DA4C1E3B528D006F8B42 /* AppDelegate.swift in Sources */,
+				C9218E8C1E3F604D00747738 /* MHDrawerTableViewCell.swift in Sources */,
+				C96E463B1E3E404C003C1C0F /* MHMovie.swift in Sources */,
+				C96E46361E3E3915003C1C0F /* MHError.swift in Sources */,
+				C954FA201E3E3752002DF53A /* MHUpcomingMovieViewController.swift in Sources */,
+				C954FA161E3E374C002DF53A /* MHMovieDBAPI.swift in Sources */,
+				C9F6C02A1E3EDC9B002F03EA /* MHTableViewCell.swift in Sources */,
+				C954FA1F1E3E3752002DF53A /* MHTopRatedMovieViewController.swift in Sources */,
+				C954FA1C1E3E3752002DF53A /* MHDrawerViewController.swift in Sources */,
+				C96E46391E3E39B7003C1C0F /* Extensions+MHUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C913DA4F1E3B528D006F8B42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C913DA501E3B528D006F8B42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C913DA541E3B528D006F8B42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -387,6 +526,7 @@
 		};
 		C913DA661E3B528D006F8B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885A88C667FFFBB7FAD5F4EB /* Pods-MovieHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MovieHub/Info.plist;
@@ -398,6 +538,7 @@
 		};
 		C913DA671E3B528D006F8B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A9247ED0F97296F695065A /* Pods-MovieHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MovieHub/Info.plist;
