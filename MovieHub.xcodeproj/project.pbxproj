@@ -11,33 +11,33 @@
 		C913DA531E3B528D006F8B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C913DA521E3B528D006F8B42 /* Assets.xcassets */; };
 		C913DA561E3B528D006F8B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C913DA541E3B528D006F8B42 /* LaunchScreen.storyboard */; };
 		C913DA611E3B528D006F8B42 /* MovieHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913DA601E3B528D006F8B42 /* MovieHubTests.swift */; };
-		C91E46641E418D1E0059F2B2 /* MHSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E46631E418D1E0059F2B2 /* MHSettingTableViewCell.swift */; };
-		C91E46661E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E46651E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift */; };
-		C91E46681E4192970059F2B2 /* MHDateFormatSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E46671E4192970059F2B2 /* MHDateFormatSettingViewController.swift */; };
-		C91E466B1E41953E0059F2B2 /* MHSettingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E466A1E41953E0059F2B2 /* MHSettingContainerViewController.swift */; };
-		C9218E8C1E3F604D00747738 /* MHDrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */; };
-		C9218E8E1E3F771900747738 /* MHSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E8D1E3F771900747738 /* MHSettingViewController.swift */; };
 		C954FA081E3E36D0002DF53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C954FA071E3E36D0002DF53A /* Main.storyboard */; };
 		C954FA161E3E374C002DF53A /* MHMovieDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */; };
-		C954FA1C1E3E3752002DF53A /* MHDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */; };
-		C954FA1D1E3E3752002DF53A /* MHPopularMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */; };
-		C954FA1E1E3E3752002DF53A /* MHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA191E3E3752002DF53A /* MHTabBarViewController.swift */; };
-		C954FA1F1E3E3752002DF53A /* MHTopRatedMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */; };
-		C954FA201E3E3752002DF53A /* MHUpcomingMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */; };
-		C9618E991E403DC000B7BAA1 /* MHMovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9618E981E403DC000B7BAA1 /* MHMovieDetailViewController.swift */; };
-		C9618E9B1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9618E9A1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift */; };
 		C96E46391E3E39B7003C1C0F /* Extensions+MHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */; };
 		C96E463B1E3E404C003C1C0F /* MHMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E463A1E3E404C003C1C0F /* MHMovie.swift */; };
-		C9860BA21E3F9A8800D12458 /* MHTabbarContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9860BA11E3F9A8800D12458 /* MHTabbarContainerViewController.swift */; };
 		C98CABC71E4107D4008580F5 /* MHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CABC51E4107D4008580F5 /* MHError.swift */; };
-		C98CABC81E4107D4008580F5 /* MHSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CABC61E4107D4008580F5 /* MHSlideMenuController.swift */; };
-		C98D5A841E43832E00A41642 /* MHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D5A831E43832E00A41642 /* MHNavigationController.swift */; };
-		C98D5A881E43940700A41642 /* MHColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D5A871E43940700A41642 /* MHColorPickerViewController.swift */; };
 		C98D5A8A1E4396CE00A41642 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = C98D5A891E4396CE00A41642 /* Colors.plist */; };
 		C9B7E4F71E41CBAB00DED0FB /* MHConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7E4F61E41CBAB00DED0FB /* MHConstants.swift */; };
 		C9BD0DCE1E3E37B3007581FA /* MHWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */; };
-		C9E4A1A81E40D2DB0078B65D /* MHTabbarBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4A1A71E40D2DB0078B65D /* MHTabbarBaseViewController.swift */; };
-		C9F6C02A1E3EDC9B002F03EA /* MHContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0291E3EDC9B002F03EA /* MHContainerTableViewCell.swift */; };
+		C9ED14181E4837E40089A74B /* MHColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14171E4837E30089A74B /* MHColorPickerViewController.swift */; };
+		C9ED141A1E4837F10089A74B /* MHSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14191E4837F10089A74B /* MHSlideMenuController.swift */; };
+		C9ED141C1E48397A0089A74B /* MHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED141B1E48397A0089A74B /* MHNavigationController.swift */; };
+		C9ED141E1E4839840089A74B /* MHMovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED141D1E4839840089A74B /* MHMovieDetailViewController.swift */; };
+		C9ED14231E48398B0089A74B /* MHDateFormatSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED141F1E48398B0089A74B /* MHDateFormatSettingViewController.swift */; };
+		C9ED14241E48398B0089A74B /* MHMovieSortOrderSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14201E48398B0089A74B /* MHMovieSortOrderSettingViewController.swift */; };
+		C9ED14251E48398B0089A74B /* MHSettingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14211E48398B0089A74B /* MHSettingContainerViewController.swift */; };
+		C9ED14261E48398B0089A74B /* MHSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14221E48398B0089A74B /* MHSettingViewController.swift */; };
+		C9ED142B1E483C020089A74B /* MHPopularMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14271E483C020089A74B /* MHPopularMovieViewController.swift */; };
+		C9ED142C1E483C020089A74B /* MHTabbarBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14281E483C020089A74B /* MHTabbarBaseViewController.swift */; };
+		C9ED142D1E483C020089A74B /* MHTopRatedMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14291E483C020089A74B /* MHTopRatedMovieViewController.swift */; };
+		C9ED142E1E483C020089A74B /* MHUpcomingMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED142A1E483C020089A74B /* MHUpcomingMovieViewController.swift */; };
+		C9ED14301E483C0D0089A74B /* MHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED142F1E483C0D0089A74B /* MHTabBarViewController.swift */; };
+		C9ED14321E483C150089A74B /* MHTabbarContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14311E483C150089A74B /* MHTabbarContainerViewController.swift */; };
+		C9ED14341E483C2B0089A74B /* MHDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14331E483C2B0089A74B /* MHDrawerViewController.swift */; };
+		C9ED14381E483C400089A74B /* MHContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14351E483C400089A74B /* MHContainerTableViewCell.swift */; };
+		C9ED14391E483C400089A74B /* MHDrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14361E483C400089A74B /* MHDrawerTableViewCell.swift */; };
+		C9ED143A1E483C400089A74B /* MHSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED14371E483C400089A74B /* MHSettingTableViewCell.swift */; };
+		C9ED143C1E483C4C0089A74B /* MHMovieDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED143B1E483C4C0089A74B /* MHMovieDetailCollectionViewCell.swift */; };
 		C9F6C0321E3EF4CF002F03EA /* MHMoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0311E3EF4CF002F03EA /* MHMoviePoster.swift */; };
 		CC6736C9F63B08F2D539866B /* Pods_MovieHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C42DB35C6DC60D8C5C1D5 /* Pods_MovieHub.framework */; };
 /* End PBXBuildFile section */
@@ -64,33 +64,33 @@
 		C913DA5C1E3B528D006F8B42 /* MovieHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C913DA601E3B528D006F8B42 /* MovieHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHubTests.swift; sourceTree = "<group>"; };
 		C913DA621E3B528D006F8B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C91E46631E418D1E0059F2B2 /* MHSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingTableViewCell.swift; path = Source/Views/MHSettingTableViewCell.swift; sourceTree = "<group>"; };
-		C91E46651E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieSortOrderSettingViewController.swift; path = Source/Controllers/MHMovieSortOrderSettingViewController.swift; sourceTree = "<group>"; };
-		C91E46671E4192970059F2B2 /* MHDateFormatSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDateFormatSettingViewController.swift; path = Source/Controllers/MHDateFormatSettingViewController.swift; sourceTree = "<group>"; };
-		C91E466A1E41953E0059F2B2 /* MHSettingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingContainerViewController.swift; path = Source/Controllers/MHSettingContainerViewController.swift; sourceTree = "<group>"; };
-		C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerTableViewCell.swift; path = Source/Views/MHDrawerTableViewCell.swift; sourceTree = "<group>"; };
-		C9218E8D1E3F771900747738 /* MHSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingViewController.swift; path = Source/Controllers/MHSettingViewController.swift; sourceTree = "<group>"; };
 		C954FA071E3E36D0002DF53A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDBAPI.swift; path = Source/API/MHMovieDBAPI.swift; sourceTree = "<group>"; };
-		C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerViewController.swift; path = Source/Controllers/MHDrawerViewController.swift; sourceTree = "<group>"; };
-		C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHPopularMovieViewController.swift; path = Source/Controllers/MHPopularMovieViewController.swift; sourceTree = "<group>"; };
-		C954FA191E3E3752002DF53A /* MHTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabBarViewController.swift; path = Source/Controllers/MHTabBarViewController.swift; sourceTree = "<group>"; };
-		C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTopRatedMovieViewController.swift; path = Source/Controllers/MHTopRatedMovieViewController.swift; sourceTree = "<group>"; };
-		C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHUpcomingMovieViewController.swift; path = Source/Controllers/MHUpcomingMovieViewController.swift; sourceTree = "<group>"; };
-		C9618E981E403DC000B7BAA1 /* MHMovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetailViewController.swift; path = Source/Controllers/MHMovieDetailViewController.swift; sourceTree = "<group>"; };
-		C9618E9A1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetailCollectionViewCell.swift; path = Source/Views/MHMovieDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+MHUtility.swift"; path = "Source/Extension/Extensions+MHUtility.swift"; sourceTree = "<group>"; };
 		C96E463A1E3E404C003C1C0F /* MHMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovie.swift; path = Source/Models/MHMovie.swift; sourceTree = "<group>"; };
-		C9860BA11E3F9A8800D12458 /* MHTabbarContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabbarContainerViewController.swift; path = Source/Controllers/MHTabbarContainerViewController.swift; sourceTree = "<group>"; };
 		C98CABC51E4107D4008580F5 /* MHError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHError.swift; path = Source/Helpers/MHError.swift; sourceTree = "<group>"; };
-		C98CABC61E4107D4008580F5 /* MHSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSlideMenuController.swift; path = Source/Helpers/MHSlideMenuController.swift; sourceTree = "<group>"; };
-		C98D5A831E43832E00A41642 /* MHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHNavigationController.swift; path = Source/Controllers/MHNavigationController.swift; sourceTree = "<group>"; };
-		C98D5A871E43940700A41642 /* MHColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHColorPickerViewController.swift; sourceTree = "<group>"; };
 		C98D5A891E4396CE00A41642 /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
 		C9B7E4F61E41CBAB00DED0FB /* MHConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHConstants.swift; path = Source/Helpers/MHConstants.swift; sourceTree = "<group>"; };
 		C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHWebServiceManager.swift; path = Source/Helpers/MHWebServiceManager.swift; sourceTree = "<group>"; };
-		C9E4A1A71E40D2DB0078B65D /* MHTabbarBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabbarBaseViewController.swift; path = Source/Controllers/MHTabbarBaseViewController.swift; sourceTree = "<group>"; };
-		C9F6C0291E3EDC9B002F03EA /* MHContainerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHContainerTableViewCell.swift; path = Source/Views/MHContainerTableViewCell.swift; sourceTree = "<group>"; };
+		C9ED14171E4837E30089A74B /* MHColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHColorPickerViewController.swift; path = Source/3rdParty/MHColorPickerViewController.swift; sourceTree = "<group>"; };
+		C9ED14191E4837F10089A74B /* MHSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSlideMenuController.swift; path = Source/3rdParty/MHSlideMenuController.swift; sourceTree = "<group>"; };
+		C9ED141B1E48397A0089A74B /* MHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHNavigationController.swift; path = Source/Controllers/CustomNavigationController/MHNavigationController.swift; sourceTree = "<group>"; };
+		C9ED141D1E4839840089A74B /* MHMovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetailViewController.swift; path = Source/Controllers/DetailViewController/MHMovieDetailViewController.swift; sourceTree = "<group>"; };
+		C9ED141F1E48398B0089A74B /* MHDateFormatSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDateFormatSettingViewController.swift; path = Source/Controllers/Setting/MHDateFormatSettingViewController.swift; sourceTree = "<group>"; };
+		C9ED14201E48398B0089A74B /* MHMovieSortOrderSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieSortOrderSettingViewController.swift; path = Source/Controllers/Setting/MHMovieSortOrderSettingViewController.swift; sourceTree = "<group>"; };
+		C9ED14211E48398B0089A74B /* MHSettingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingContainerViewController.swift; path = Source/Controllers/Setting/MHSettingContainerViewController.swift; sourceTree = "<group>"; };
+		C9ED14221E48398B0089A74B /* MHSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingViewController.swift; path = Source/Controllers/Setting/MHSettingViewController.swift; sourceTree = "<group>"; };
+		C9ED14271E483C020089A74B /* MHPopularMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHPopularMovieViewController.swift; path = Source/Controllers/TabbarController/TabbarViewControllers/MHPopularMovieViewController.swift; sourceTree = "<group>"; };
+		C9ED14281E483C020089A74B /* MHTabbarBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabbarBaseViewController.swift; path = Source/Controllers/TabbarController/TabbarViewControllers/MHTabbarBaseViewController.swift; sourceTree = "<group>"; };
+		C9ED14291E483C020089A74B /* MHTopRatedMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTopRatedMovieViewController.swift; path = Source/Controllers/TabbarController/TabbarViewControllers/MHTopRatedMovieViewController.swift; sourceTree = "<group>"; };
+		C9ED142A1E483C020089A74B /* MHUpcomingMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHUpcomingMovieViewController.swift; path = Source/Controllers/TabbarController/TabbarViewControllers/MHUpcomingMovieViewController.swift; sourceTree = "<group>"; };
+		C9ED142F1E483C0D0089A74B /* MHTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabBarViewController.swift; path = Source/Controllers/TabbarController/MHTabBarViewController.swift; sourceTree = "<group>"; };
+		C9ED14311E483C150089A74B /* MHTabbarContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabbarContainerViewController.swift; path = Source/Controllers/TabbarController/TabbarContainerViewController/MHTabbarContainerViewController.swift; sourceTree = "<group>"; };
+		C9ED14331E483C2B0089A74B /* MHDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerViewController.swift; path = Source/Controllers/DrawerViewController/MHDrawerViewController.swift; sourceTree = "<group>"; };
+		C9ED14351E483C400089A74B /* MHContainerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHContainerTableViewCell.swift; path = Source/Views/TableViewCell/MHContainerTableViewCell.swift; sourceTree = "<group>"; };
+		C9ED14361E483C400089A74B /* MHDrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerTableViewCell.swift; path = Source/Views/TableViewCell/MHDrawerTableViewCell.swift; sourceTree = "<group>"; };
+		C9ED14371E483C400089A74B /* MHSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingTableViewCell.swift; path = Source/Views/TableViewCell/MHSettingTableViewCell.swift; sourceTree = "<group>"; };
+		C9ED143B1E483C4C0089A74B /* MHMovieDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetailCollectionViewCell.swift; path = Source/Views/CollectionViewCell/MHMovieDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		C9F6C0311E3EF4CF002F03EA /* MHMoviePoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMoviePoster.swift; path = Source/Models/MHMoviePoster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,7 +133,7 @@
 		C90C5E941E42E572001D475B /* DetailViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C9618E981E403DC000B7BAA1 /* MHMovieDetailViewController.swift */,
+				C9ED141D1E4839840089A74B /* MHMovieDetailViewController.swift */,
 			);
 			name = DetailViewController;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 		C90C5E951E42E585001D475B /* DrawerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */,
+				C9ED14331E483C2B0089A74B /* MHDrawerViewController.swift */,
 			);
 			name = DrawerViewController;
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 		C90C5E961E42E9A6001D475B /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */,
-				C9F6C0291E3EDC9B002F03EA /* MHContainerTableViewCell.swift */,
-				C91E46631E418D1E0059F2B2 /* MHSettingTableViewCell.swift */,
+				C9ED14351E483C400089A74B /* MHContainerTableViewCell.swift */,
+				C9ED14361E483C400089A74B /* MHDrawerTableViewCell.swift */,
+				C9ED14371E483C400089A74B /* MHSettingTableViewCell.swift */,
 			);
 			name = TableViewCell;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 		C90C5E971E42E9B1001D475B /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				C9618E9A1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift */,
+				C9ED143B1E483C4C0089A74B /* MHMovieDetailCollectionViewCell.swift */,
 			);
 			name = CollectionViewCell;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 		C9177B5D1E443040009E91C2 /* CustomNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				C98D5A831E43832E00A41642 /* MHNavigationController.swift */,
+				C9ED141B1E48397A0089A74B /* MHNavigationController.swift */,
 			);
 			name = CustomNavigationController;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 		C9177B5E1E4436FC009E91C2 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				C98D5A871E43940700A41642 /* MHColorPickerViewController.swift */,
+				C9ED14171E4837E30089A74B /* MHColorPickerViewController.swift */,
 			);
 			name = ColorPicker;
 			sourceTree = "<group>";
@@ -304,10 +304,10 @@
 		C91E46691E4192D60059F2B2 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				C9218E8D1E3F771900747738 /* MHSettingViewController.swift */,
-				C91E466A1E41953E0059F2B2 /* MHSettingContainerViewController.swift */,
-				C91E46651E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift */,
-				C91E46671E4192970059F2B2 /* MHDateFormatSettingViewController.swift */,
+				C9ED141F1E48398B0089A74B /* MHDateFormatSettingViewController.swift */,
+				C9ED14201E48398B0089A74B /* MHMovieSortOrderSettingViewController.swift */,
+				C9ED14211E48398B0089A74B /* MHSettingContainerViewController.swift */,
+				C9ED14221E48398B0089A74B /* MHSettingViewController.swift */,
 			);
 			name = Setting;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 		C98D5A821E430C0500A41642 /* MenuSlider */ = {
 			isa = PBXGroup;
 			children = (
-				C98CABC61E4107D4008580F5 /* MHSlideMenuController.swift */,
+				C9ED14191E4837F10089A74B /* MHSlideMenuController.swift */,
 			);
 			name = MenuSlider;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 		C9E4A1A91E40D45E0078B65D /* TabbarController */ = {
 			isa = PBXGroup;
 			children = (
-				C954FA191E3E3752002DF53A /* MHTabBarViewController.swift */,
+				C9ED142F1E483C0D0089A74B /* MHTabBarViewController.swift */,
 				C9E4A1AA1E40D46E0078B65D /* TabbarViewControllers */,
 				C9E4A1AB1E40D48B0078B65D /* TabbarContainerViewController */,
 			);
@@ -358,10 +358,10 @@
 		C9E4A1AA1E40D46E0078B65D /* TabbarViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C9E4A1A71E40D2DB0078B65D /* MHTabbarBaseViewController.swift */,
-				C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */,
-				C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */,
-				C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */,
+				C9ED14271E483C020089A74B /* MHPopularMovieViewController.swift */,
+				C9ED14281E483C020089A74B /* MHTabbarBaseViewController.swift */,
+				C9ED14291E483C020089A74B /* MHTopRatedMovieViewController.swift */,
+				C9ED142A1E483C020089A74B /* MHUpcomingMovieViewController.swift */,
 			);
 			name = TabbarViewControllers;
 			sourceTree = "<group>";
@@ -369,7 +369,7 @@
 		C9E4A1AB1E40D48B0078B65D /* TabbarContainerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C9860BA11E3F9A8800D12458 /* MHTabbarContainerViewController.swift */,
+				C9ED14311E483C150089A74B /* MHTabbarContainerViewController.swift */,
 			);
 			name = TabbarContainerViewController;
 			sourceTree = "<group>";
@@ -527,33 +527,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C954FA1E1E3E3752002DF53A /* MHTabBarViewController.swift in Sources */,
-				C9860BA21E3F9A8800D12458 /* MHTabbarContainerViewController.swift in Sources */,
-				C98D5A841E43832E00A41642 /* MHNavigationController.swift in Sources */,
+				C9ED141A1E4837F10089A74B /* MHSlideMenuController.swift in Sources */,
+				C9ED14261E48398B0089A74B /* MHSettingViewController.swift in Sources */,
+				C9ED142E1E483C020089A74B /* MHUpcomingMovieViewController.swift in Sources */,
+				C9ED141C1E48397A0089A74B /* MHNavigationController.swift in Sources */,
 				C98CABC71E4107D4008580F5 /* MHError.swift in Sources */,
-				C954FA1D1E3E3752002DF53A /* MHPopularMovieViewController.swift in Sources */,
 				C9B7E4F71E41CBAB00DED0FB /* MHConstants.swift in Sources */,
-				C91E46661E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift in Sources */,
 				C9BD0DCE1E3E37B3007581FA /* MHWebServiceManager.swift in Sources */,
 				C9F6C0321E3EF4CF002F03EA /* MHMoviePoster.swift in Sources */,
-				C98CABC81E4107D4008580F5 /* MHSlideMenuController.swift in Sources */,
-				C98D5A881E43940700A41642 /* MHColorPickerViewController.swift in Sources */,
+				C9ED14181E4837E40089A74B /* MHColorPickerViewController.swift in Sources */,
 				C913DA4C1E3B528D006F8B42 /* AppDelegate.swift in Sources */,
-				C91E46641E418D1E0059F2B2 /* MHSettingTableViewCell.swift in Sources */,
-				C9218E8C1E3F604D00747738 /* MHDrawerTableViewCell.swift in Sources */,
-				C9E4A1A81E40D2DB0078B65D /* MHTabbarBaseViewController.swift in Sources */,
-				C91E46681E4192970059F2B2 /* MHDateFormatSettingViewController.swift in Sources */,
+				C9ED14341E483C2B0089A74B /* MHDrawerViewController.swift in Sources */,
+				C9ED143C1E483C4C0089A74B /* MHMovieDetailCollectionViewCell.swift in Sources */,
+				C9ED142C1E483C020089A74B /* MHTabbarBaseViewController.swift in Sources */,
+				C9ED14391E483C400089A74B /* MHDrawerTableViewCell.swift in Sources */,
+				C9ED141E1E4839840089A74B /* MHMovieDetailViewController.swift in Sources */,
+				C9ED14301E483C0D0089A74B /* MHTabBarViewController.swift in Sources */,
+				C9ED14241E48398B0089A74B /* MHMovieSortOrderSettingViewController.swift in Sources */,
 				C96E463B1E3E404C003C1C0F /* MHMovie.swift in Sources */,
-				C954FA201E3E3752002DF53A /* MHUpcomingMovieViewController.swift in Sources */,
-				C9218E8E1E3F771900747738 /* MHSettingViewController.swift in Sources */,
+				C9ED14321E483C150089A74B /* MHTabbarContainerViewController.swift in Sources */,
+				C9ED14251E48398B0089A74B /* MHSettingContainerViewController.swift in Sources */,
+				C9ED142B1E483C020089A74B /* MHPopularMovieViewController.swift in Sources */,
 				C954FA161E3E374C002DF53A /* MHMovieDBAPI.swift in Sources */,
-				C9618E9B1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift in Sources */,
-				C9F6C02A1E3EDC9B002F03EA /* MHContainerTableViewCell.swift in Sources */,
-				C954FA1F1E3E3752002DF53A /* MHTopRatedMovieViewController.swift in Sources */,
-				C9618E991E403DC000B7BAA1 /* MHMovieDetailViewController.swift in Sources */,
-				C954FA1C1E3E3752002DF53A /* MHDrawerViewController.swift in Sources */,
-				C91E466B1E41953E0059F2B2 /* MHSettingContainerViewController.swift in Sources */,
+				C9ED14381E483C400089A74B /* MHContainerTableViewCell.swift in Sources */,
+				C9ED14231E48398B0089A74B /* MHDateFormatSettingViewController.swift in Sources */,
+				C9ED142D1E483C020089A74B /* MHTopRatedMovieViewController.swift in Sources */,
 				C96E46391E3E39B7003C1C0F /* Extensions+MHUtility.swift in Sources */,
+				C9ED143A1E483C400089A74B /* MHSettingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
