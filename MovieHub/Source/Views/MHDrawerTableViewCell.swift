@@ -8,13 +8,15 @@
 
 import UIKit
 
+///This is table view cell, which is used in UIDrawerTableViewController for displaying drawer titles and icons
 class MHDrawerTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var movieTypeLabel: UILabel!
-    @IBOutlet weak var movieTypeImageView: UIImageView!
+    @IBOutlet private weak var drawerItemLabel: UILabel!
+    @IBOutlet private weak var drawerItemImageView: UIImageView!
     
+    //configure cell
     func configureCell(withMovieType type: String, imageName: String) {
-        movieTypeLabel.text = type
-        movieTypeImageView.image = UIImage(named: imageName)
+        drawerItemLabel.text = type
+        drawerItemImageView.image = UIImage(named: imageName)
     }
 }

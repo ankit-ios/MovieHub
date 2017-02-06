@@ -6,12 +6,11 @@
 //  Copyright © 2017 Robosoft Technology. All rights reserved.
 //
 
-import UIKit
 import Alamofire
 import SwiftyJSON
 
 /**
- *  This WFWebServiceManager is act for handling all network requests and responses.
+ *  This MHWebServiceManager is act for handling all network requests and responses.
  */
 struct MHWebServiceManager {
     
@@ -19,10 +18,10 @@ struct MHWebServiceManager {
     typealias completionHandlerForData = (response: NSData?, error: NSError?) -> Void
     
     /**
-     Getting json response about searched cities
+     get movies details
      
-     - parameter searchString: city name
-     - parameter onCompletion: return seached city
+     - parameter urlString:    url String
+     - parameter onCompletion: get movies details in array and error
      */
     static func getMovieDetail(with urlString: String, onCompletion: (response: [MHMovie]?, error: NSError?) -> Void) {
         
@@ -35,6 +34,46 @@ struct MHWebServiceManager {
                 else {
                     onCompletion(response: nil, error: MHError.getWrongDataError())
                 }
+            } else {
+                onCompletion(response: nil, error: error)
+            }
+        }
+    }
+    
+    /**
+     get movie posters
+     
+     - parameter urlString:    url String
+     - parameter onCompletion: get movie posters and error
+     */
+    static func getMoviePosters(with urlString: String, onCompletion: (response: [MHMoviePoster]?, error: NSError?) -> Void) {
+        
+        makeHTTPGetRequestForJSON(urlString.removeSpace) { response, error in
+            
+            if let response = response where error == nil {
+                if let posters = MHMoviePoster.constructModel(response) {
+                    onCompletion(response: posters, error: nil)
+                }
+                else {
+                    onCompletion(response: nil, error: MHError.getWrongDataError())
+                }
+            } else {
+                onCompletion(response: nil, error: error)
+            }
+        }
+    }
+
+    /**
+     get Image
+     
+     - parameter urlString:    url String
+     - parameter onCompletion: get UIImage and error
+     */
+    static func getImage(with urlString: String, onCompletion: (response: UIImage?, error: NSError?) -> Void) {
+        makeHTTPGetRequestForData(urlString.removeSpace) { response, error in
+            
+            if let response = response where error == nil {
+                onCompletion(response: UIImage(data: response), error: nil)
             } else {
                 onCompletion(response: nil, error: error)
             }

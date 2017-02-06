@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let tabBarViewController = UIViewController.tabbarViewController() as! MHTabBarViewController
         let drawerViewController = UIViewController.drawerViewController() as! MHDrawerViewController
-        let slideMenuController = SlideMenuController(mainViewController: tabBarViewController, leftMenuViewController: drawerViewController)
+        let slideMenuController = MHSlideMenuController(tabbarViewController: tabBarViewController, drawerViewController: drawerViewController)
         
         window?.rootViewController = slideMenuController
         window?.makeKeyAndVisible()

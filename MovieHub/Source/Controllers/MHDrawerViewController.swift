@@ -8,33 +8,49 @@
 
 import UIKit
 
+/// handle selection of drawer item
+protocol MHDrawerViewControllerProtocol: class {
+    func didSelectItem(withItem item: MHDrawerItem)
+}
+
+/// DrawerViewController
 class MHDrawerViewController: UIViewController {
-
-    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet private weak var tableView: UITableView!
+    
+    //properties
+    weak var delegate: MHDrawerViewControllerProtocol?
+    
+    //private constants
+    private struct Constants {
+        static let dataSourceNames = ["Top Rated", "Popular", "Upcoming", "Setting"]
+        static let dataSourceImageNames = ["topRated","popular","upcoming","setting"]
+        static let cellIdentifier = "DrawerTableViewCell"
+    }
     
     
-    let dataSourceNames = ["Top Rated", "Popular", "Upcoming", "Setting"]
-    let dataSourceImageNames = ["topRated","popular","upcoming","setting"]
-
+    //ViewController life cycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
     }
 }
 
+// MARK: - UITableView Datasource and delegate methods
 extension MHDrawerViewController: UITableViewDataSource, UITableViewDelegate {
-
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataSourceNames.count
+        return Constants.dataSourceNames.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("DrawerTableViewCell") as! MHDrawerTableViewCell
-        cell.configureCell(withMovieType: dataSourceNames[indexPath.row], imageName: dataSourceImageNames[indexPath.row])
-        return cell ?? UITableViewCell()
+        let cell = tableView.dequeueReusableCellWithIdentifier(Constants.cellIdentifier) as! MHDrawerTableViewCell
+        cell.configureCell(withMovieType: Constants.dataSourceNames[indexPath.row], imageName: Constants.dataSourceImageNames[indexPath.row])
+        return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        delegate?.didSelectItem(withItem: MHDrawerItem.getItem(withValue: indexPath.row))
     }
 }

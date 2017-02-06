@@ -11,21 +11,34 @@
 		C913DA531E3B528D006F8B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C913DA521E3B528D006F8B42 /* Assets.xcassets */; };
 		C913DA561E3B528D006F8B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C913DA541E3B528D006F8B42 /* LaunchScreen.storyboard */; };
 		C913DA611E3B528D006F8B42 /* MovieHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913DA601E3B528D006F8B42 /* MovieHubTests.swift */; };
-		C9218E8A1E3F46A900747738 /* MHSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E891E3F46A900747738 /* MHSlideMenuController.swift */; };
+		C91E46641E418D1E0059F2B2 /* MHSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E46631E418D1E0059F2B2 /* MHSettingTableViewCell.swift */; };
+		C91E46661E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E46651E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift */; };
+		C91E46681E4192970059F2B2 /* MHDateFormatSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E46671E4192970059F2B2 /* MHDateFormatSettingViewController.swift */; };
+		C91E466B1E41953E0059F2B2 /* MHSettingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91E466A1E41953E0059F2B2 /* MHSettingContainerViewController.swift */; };
 		C9218E8C1E3F604D00747738 /* MHDrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */; };
+		C9218E8E1E3F771900747738 /* MHSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9218E8D1E3F771900747738 /* MHSettingViewController.swift */; };
 		C954FA081E3E36D0002DF53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C954FA071E3E36D0002DF53A /* Main.storyboard */; };
 		C954FA161E3E374C002DF53A /* MHMovieDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */; };
 		C954FA1C1E3E3752002DF53A /* MHDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */; };
 		C954FA1D1E3E3752002DF53A /* MHPopularMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */; };
-		C954FA1E1E3E3752002DF53A /* MHTabBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA191E3E3752002DF53A /* MHTabBarTableViewController.swift */; };
+		C954FA1E1E3E3752002DF53A /* MHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA191E3E3752002DF53A /* MHTabBarViewController.swift */; };
 		C954FA1F1E3E3752002DF53A /* MHTopRatedMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */; };
 		C954FA201E3E3752002DF53A /* MHUpcomingMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */; };
-		C96E46361E3E3915003C1C0F /* MHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E46351E3E3915003C1C0F /* MHError.swift */; };
+		C9618E991E403DC000B7BAA1 /* MHMovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9618E981E403DC000B7BAA1 /* MHMovieDetailViewController.swift */; };
+		C9618E9B1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9618E9A1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift */; };
 		C96E46391E3E39B7003C1C0F /* Extensions+MHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */; };
 		C96E463B1E3E404C003C1C0F /* MHMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96E463A1E3E404C003C1C0F /* MHMovie.swift */; };
+		C9860BA21E3F9A8800D12458 /* MHTabbarContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9860BA11E3F9A8800D12458 /* MHTabbarContainerViewController.swift */; };
+		C98CABC71E4107D4008580F5 /* MHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CABC51E4107D4008580F5 /* MHError.swift */; };
+		C98CABC81E4107D4008580F5 /* MHSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CABC61E4107D4008580F5 /* MHSlideMenuController.swift */; };
+		C98D5A841E43832E00A41642 /* MHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D5A831E43832E00A41642 /* MHNavigationController.swift */; };
+		C98D5A881E43940700A41642 /* MHColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D5A871E43940700A41642 /* MHColorPickerViewController.swift */; };
+		C98D5A8A1E4396CE00A41642 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = C98D5A891E4396CE00A41642 /* Colors.plist */; };
+		C9B7E4F71E41CBAB00DED0FB /* MHConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7E4F61E41CBAB00DED0FB /* MHConstants.swift */; };
 		C9BD0DCE1E3E37B3007581FA /* MHWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */; };
-		C9F6C02A1E3EDC9B002F03EA /* MHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0291E3EDC9B002F03EA /* MHTableViewCell.swift */; };
-		C9F6C0321E3EF4CF002F03EA /* MHMovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0311E3EF4CF002F03EA /* MHMovieDetail.swift */; };
+		C9E4A1A81E40D2DB0078B65D /* MHTabbarBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4A1A71E40D2DB0078B65D /* MHTabbarBaseViewController.swift */; };
+		C9F6C02A1E3EDC9B002F03EA /* MHContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0291E3EDC9B002F03EA /* MHContainerTableViewCell.swift */; };
+		C9F6C0321E3EF4CF002F03EA /* MHMoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C0311E3EF4CF002F03EA /* MHMoviePoster.swift */; };
 		CC6736C9F63B08F2D539866B /* Pods_MovieHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C42DB35C6DC60D8C5C1D5 /* Pods_MovieHub.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,21 +64,34 @@
 		C913DA5C1E3B528D006F8B42 /* MovieHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C913DA601E3B528D006F8B42 /* MovieHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHubTests.swift; sourceTree = "<group>"; };
 		C913DA621E3B528D006F8B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9218E891E3F46A900747738 /* MHSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHSlideMenuController.swift; sourceTree = "<group>"; };
+		C91E46631E418D1E0059F2B2 /* MHSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingTableViewCell.swift; path = Source/Views/MHSettingTableViewCell.swift; sourceTree = "<group>"; };
+		C91E46651E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieSortOrderSettingViewController.swift; path = Source/Controllers/MHMovieSortOrderSettingViewController.swift; sourceTree = "<group>"; };
+		C91E46671E4192970059F2B2 /* MHDateFormatSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDateFormatSettingViewController.swift; path = Source/Controllers/MHDateFormatSettingViewController.swift; sourceTree = "<group>"; };
+		C91E466A1E41953E0059F2B2 /* MHSettingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingContainerViewController.swift; path = Source/Controllers/MHSettingContainerViewController.swift; sourceTree = "<group>"; };
 		C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerTableViewCell.swift; path = Source/Views/MHDrawerTableViewCell.swift; sourceTree = "<group>"; };
+		C9218E8D1E3F771900747738 /* MHSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSettingViewController.swift; path = Source/Controllers/MHSettingViewController.swift; sourceTree = "<group>"; };
 		C954FA071E3E36D0002DF53A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDBAPI.swift; path = Source/API/MHMovieDBAPI.swift; sourceTree = "<group>"; };
 		C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHDrawerViewController.swift; path = Source/Controllers/MHDrawerViewController.swift; sourceTree = "<group>"; };
 		C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHPopularMovieViewController.swift; path = Source/Controllers/MHPopularMovieViewController.swift; sourceTree = "<group>"; };
-		C954FA191E3E3752002DF53A /* MHTabBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabBarTableViewController.swift; path = Source/Controllers/MHTabBarTableViewController.swift; sourceTree = "<group>"; };
+		C954FA191E3E3752002DF53A /* MHTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabBarViewController.swift; path = Source/Controllers/MHTabBarViewController.swift; sourceTree = "<group>"; };
 		C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTopRatedMovieViewController.swift; path = Source/Controllers/MHTopRatedMovieViewController.swift; sourceTree = "<group>"; };
 		C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHUpcomingMovieViewController.swift; path = Source/Controllers/MHUpcomingMovieViewController.swift; sourceTree = "<group>"; };
-		C96E46351E3E3915003C1C0F /* MHError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHError.swift; sourceTree = "<group>"; };
+		C9618E981E403DC000B7BAA1 /* MHMovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetailViewController.swift; path = Source/Controllers/MHMovieDetailViewController.swift; sourceTree = "<group>"; };
+		C9618E9A1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetailCollectionViewCell.swift; path = Source/Views/MHMovieDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		C96E46381E3E39B7003C1C0F /* Extensions+MHUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+MHUtility.swift"; path = "Source/Extension/Extensions+MHUtility.swift"; sourceTree = "<group>"; };
 		C96E463A1E3E404C003C1C0F /* MHMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovie.swift; path = Source/Models/MHMovie.swift; sourceTree = "<group>"; };
+		C9860BA11E3F9A8800D12458 /* MHTabbarContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabbarContainerViewController.swift; path = Source/Controllers/MHTabbarContainerViewController.swift; sourceTree = "<group>"; };
+		C98CABC51E4107D4008580F5 /* MHError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHError.swift; path = Source/Helpers/MHError.swift; sourceTree = "<group>"; };
+		C98CABC61E4107D4008580F5 /* MHSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHSlideMenuController.swift; path = Source/Helpers/MHSlideMenuController.swift; sourceTree = "<group>"; };
+		C98D5A831E43832E00A41642 /* MHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHNavigationController.swift; path = Source/Controllers/MHNavigationController.swift; sourceTree = "<group>"; };
+		C98D5A871E43940700A41642 /* MHColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHColorPickerViewController.swift; sourceTree = "<group>"; };
+		C98D5A891E4396CE00A41642 /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
+		C9B7E4F61E41CBAB00DED0FB /* MHConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHConstants.swift; path = Source/Helpers/MHConstants.swift; sourceTree = "<group>"; };
 		C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHWebServiceManager.swift; path = Source/Helpers/MHWebServiceManager.swift; sourceTree = "<group>"; };
-		C9F6C0291E3EDC9B002F03EA /* MHTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTableViewCell.swift; path = Source/Views/MHTableViewCell.swift; sourceTree = "<group>"; };
-		C9F6C0311E3EF4CF002F03EA /* MHMovieDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMovieDetail.swift; path = Source/Models/MHMovieDetail.swift; sourceTree = "<group>"; };
+		C9E4A1A71E40D2DB0078B65D /* MHTabbarBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHTabbarBaseViewController.swift; path = Source/Controllers/MHTabbarBaseViewController.swift; sourceTree = "<group>"; };
+		C9F6C0291E3EDC9B002F03EA /* MHContainerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHContainerTableViewCell.swift; path = Source/Views/MHContainerTableViewCell.swift; sourceTree = "<group>"; };
+		C9F6C0311E3EF4CF002F03EA /* MHMoviePoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHMoviePoster.swift; path = Source/Models/MHMoviePoster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +128,40 @@
 				732C42DB35C6DC60D8C5C1D5 /* Pods_MovieHub.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90C5E941E42E572001D475B /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9618E981E403DC000B7BAA1 /* MHMovieDetailViewController.swift */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		C90C5E951E42E585001D475B /* DrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */,
+			);
+			name = DrawerViewController;
+			sourceTree = "<group>";
+		};
+		C90C5E961E42E9A6001D475B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */,
+				C9F6C0291E3EDC9B002F03EA /* MHContainerTableViewCell.swift */,
+				C91E46631E418D1E0059F2B2 /* MHSettingTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		C90C5E971E42E9B1001D475B /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9618E9A1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift */,
+			);
+			name = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		C913DA3F1E3B528D006F8B42 = {
@@ -150,6 +210,7 @@
 				C913DA4B1E3B528D006F8B42 /* AppDelegate.swift */,
 				C913DA541E3B528D006F8B42 /* LaunchScreen.storyboard */,
 				C913DA571E3B528D006F8B42 /* Info.plist */,
+				C98D5A891E4396CE00A41642 /* Colors.plist */,
 			);
 			name = SupportingFiles;
 			sourceTree = "<group>";
@@ -165,6 +226,7 @@
 		C913DA751E3B57A8006F8B42 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C98D5A811E430BEE00A41642 /* 3rdParty */,
 				C980EF5C1E3C69E800DB542E /* API */,
 				C96E46371E3E3986003C1C0F /* Extension */,
 				C913DA7A1E3B57D6006F8B42 /* Models */,
@@ -186,9 +248,9 @@
 		C913DA771E3B57CB006F8B42 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				C9218E891E3F46A900747738 /* MHSlideMenuController.swift */,
 				C9BD0DCD1E3E37B3007581FA /* MHWebServiceManager.swift */,
-				C96E46351E3E3915003C1C0F /* MHError.swift */,
+				C98CABC51E4107D4008580F5 /* MHError.swift */,
+				C9B7E4F61E41CBAB00DED0FB /* MHConstants.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -196,11 +258,11 @@
 		C913DA781E3B57D2006F8B42 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C954FA191E3E3752002DF53A /* MHTabBarTableViewController.swift */,
-				C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */,
-				C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */,
-				C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */,
-				C954FA171E3E3752002DF53A /* MHDrawerViewController.swift */,
+				C9E4A1A91E40D45E0078B65D /* TabbarController */,
+				C90C5E951E42E585001D475B /* DrawerViewController */,
+				C9177B5D1E443040009E91C2 /* CustomNavigationController */,
+				C90C5E941E42E572001D475B /* DetailViewController */,
+				C91E46691E4192D60059F2B2 /* Setting */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -208,8 +270,8 @@
 		C913DA791E3B57D4006F8B42 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C9218E8B1E3F604D00747738 /* MHDrawerTableViewCell.swift */,
-				C9F6C0291E3EDC9B002F03EA /* MHTableViewCell.swift */,
+				C90C5E961E42E9A6001D475B /* TableViewCell */,
+				C90C5E971E42E9B1001D475B /* CollectionViewCell */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -218,9 +280,36 @@
 			isa = PBXGroup;
 			children = (
 				C96E463A1E3E404C003C1C0F /* MHMovie.swift */,
-				C9F6C0311E3EF4CF002F03EA /* MHMovieDetail.swift */,
+				C9F6C0311E3EF4CF002F03EA /* MHMoviePoster.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C9177B5D1E443040009E91C2 /* CustomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C98D5A831E43832E00A41642 /* MHNavigationController.swift */,
+			);
+			name = CustomNavigationController;
+			sourceTree = "<group>";
+		};
+		C9177B5E1E4436FC009E91C2 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C98D5A871E43940700A41642 /* MHColorPickerViewController.swift */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		C91E46691E4192D60059F2B2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C9218E8D1E3F771900747738 /* MHSettingViewController.swift */,
+				C91E466A1E41953E0059F2B2 /* MHSettingContainerViewController.swift */,
+				C91E46651E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift */,
+				C91E46671E4192970059F2B2 /* MHDateFormatSettingViewController.swift */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 		C96E46371E3E3986003C1C0F /* Extension */ = {
@@ -237,6 +326,52 @@
 				C954FA151E3E374C002DF53A /* MHMovieDBAPI.swift */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		C98D5A811E430BEE00A41642 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C9177B5E1E4436FC009E91C2 /* ColorPicker */,
+				C98D5A821E430C0500A41642 /* MenuSlider */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		C98D5A821E430C0500A41642 /* MenuSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C98CABC61E4107D4008580F5 /* MHSlideMenuController.swift */,
+			);
+			name = MenuSlider;
+			sourceTree = "<group>";
+		};
+		C9E4A1A91E40D45E0078B65D /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				C954FA191E3E3752002DF53A /* MHTabBarViewController.swift */,
+				C9E4A1AA1E40D46E0078B65D /* TabbarViewControllers */,
+				C9E4A1AB1E40D48B0078B65D /* TabbarContainerViewController */,
+			);
+			name = TabbarController;
+			sourceTree = "<group>";
+		};
+		C9E4A1AA1E40D46E0078B65D /* TabbarViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9E4A1A71E40D2DB0078B65D /* MHTabbarBaseViewController.swift */,
+				C954FA1A1E3E3752002DF53A /* MHTopRatedMovieViewController.swift */,
+				C954FA181E3E3752002DF53A /* MHPopularMovieViewController.swift */,
+				C954FA1B1E3E3752002DF53A /* MHUpcomingMovieViewController.swift */,
+			);
+			name = TabbarViewControllers;
+			sourceTree = "<group>";
+		};
+		C9E4A1AB1E40D48B0078B65D /* TabbarContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9860BA11E3F9A8800D12458 /* MHTabbarContainerViewController.swift */,
+			);
+			name = TabbarContainerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98D5A8A1E4396CE00A41642 /* Colors.plist in Resources */,
 				C954FA081E3E36D0002DF53A /* Main.storyboard in Resources */,
 				C913DA561E3B528D006F8B42 /* LaunchScreen.storyboard in Resources */,
 				C913DA531E3B528D006F8B42 /* Assets.xcassets in Resources */,
@@ -391,20 +527,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C954FA1E1E3E3752002DF53A /* MHTabBarTableViewController.swift in Sources */,
-				C9218E8A1E3F46A900747738 /* MHSlideMenuController.swift in Sources */,
+				C954FA1E1E3E3752002DF53A /* MHTabBarViewController.swift in Sources */,
+				C9860BA21E3F9A8800D12458 /* MHTabbarContainerViewController.swift in Sources */,
+				C98D5A841E43832E00A41642 /* MHNavigationController.swift in Sources */,
+				C98CABC71E4107D4008580F5 /* MHError.swift in Sources */,
 				C954FA1D1E3E3752002DF53A /* MHPopularMovieViewController.swift in Sources */,
+				C9B7E4F71E41CBAB00DED0FB /* MHConstants.swift in Sources */,
+				C91E46661E41926D0059F2B2 /* MHMovieSortOrderSettingViewController.swift in Sources */,
 				C9BD0DCE1E3E37B3007581FA /* MHWebServiceManager.swift in Sources */,
-				C9F6C0321E3EF4CF002F03EA /* MHMovieDetail.swift in Sources */,
+				C9F6C0321E3EF4CF002F03EA /* MHMoviePoster.swift in Sources */,
+				C98CABC81E4107D4008580F5 /* MHSlideMenuController.swift in Sources */,
+				C98D5A881E43940700A41642 /* MHColorPickerViewController.swift in Sources */,
 				C913DA4C1E3B528D006F8B42 /* AppDelegate.swift in Sources */,
+				C91E46641E418D1E0059F2B2 /* MHSettingTableViewCell.swift in Sources */,
 				C9218E8C1E3F604D00747738 /* MHDrawerTableViewCell.swift in Sources */,
+				C9E4A1A81E40D2DB0078B65D /* MHTabbarBaseViewController.swift in Sources */,
+				C91E46681E4192970059F2B2 /* MHDateFormatSettingViewController.swift in Sources */,
 				C96E463B1E3E404C003C1C0F /* MHMovie.swift in Sources */,
-				C96E46361E3E3915003C1C0F /* MHError.swift in Sources */,
 				C954FA201E3E3752002DF53A /* MHUpcomingMovieViewController.swift in Sources */,
+				C9218E8E1E3F771900747738 /* MHSettingViewController.swift in Sources */,
 				C954FA161E3E374C002DF53A /* MHMovieDBAPI.swift in Sources */,
-				C9F6C02A1E3EDC9B002F03EA /* MHTableViewCell.swift in Sources */,
+				C9618E9B1E403FB400B7BAA1 /* MHMovieDetailCollectionViewCell.swift in Sources */,
+				C9F6C02A1E3EDC9B002F03EA /* MHContainerTableViewCell.swift in Sources */,
 				C954FA1F1E3E3752002DF53A /* MHTopRatedMovieViewController.swift in Sources */,
+				C9618E991E403DC000B7BAA1 /* MHMovieDetailViewController.swift in Sources */,
 				C954FA1C1E3E3752002DF53A /* MHDrawerViewController.swift in Sources */,
+				C91E466B1E41953E0059F2B2 /* MHSettingContainerViewController.swift in Sources */,
 				C96E46391E3E39B7003C1C0F /* Extensions+MHUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MovieHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Robosoft-Technology.MovieHub";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.in;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -543,7 +691,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MovieHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Robosoft-Technology.MovieHub";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.in;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
