@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let tabBarViewController = UIViewController.tabbarViewController() as! MHTabBarViewController
+        let drawerViewController = UIViewController.drawerViewController() as! MHDrawerViewController
+        let slideMenuController = MHSlideMenuController(tabbarViewController: tabBarViewController, drawerViewController: drawerViewController)
+        
+        window?.rootViewController = slideMenuController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
